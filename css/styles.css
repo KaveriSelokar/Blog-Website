@@ -1,7 +1,39 @@
 @import "navbar.css";
 @import "footer.css";
-
 /* Terracotta red, light beige, & muted teal = #B85042, #E7E8D1, #A7BEAE */
+
+
+/*styling standard blockquote format for every page*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+
 
 /*Extra small devices*/
 @media screen and (min-width: 200px) and (max-width: 499px) {
