@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Travel Blog</title>
+    <meta name="description" content="A blog website about learning french">
+    <meta name="author" content="Kaveri Selokar">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+</head>
+<style>
+    .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center; }
+</style>
+
+
+<body>
+
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo"><b>Learn French</b> with me</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="pages/AboutUsComponent.html" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="pages/BlogPostComponent.html" class="nav-links">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="image-container">
+            <img src="photos/effieltower.jpg" alt="image">
+            <div class="overlay-text">Parlez-vous francais?</div>
+        </div>
+    </header>
+    <section>
+        <div class="animated-border-quote">
+            <blockquote>
+              <p>"Bonjour! Comment ça va aujourd'hui?
+                J'espère que vous passez une excellente journée. 
+                Avez-vous des projets passionnants pour le week-end à venir?
+                N'oubliez pas de profiter du moment présent et de savourer chaque instant.
+                Bonne continuation dans tout ce que vous entreprenez!"</p>
+            </blockquote>
+          </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-content">© 2024 - Kaveri Selokar, All Copyrights Reserved</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
