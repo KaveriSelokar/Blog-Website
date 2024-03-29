@@ -1,5 +1,5 @@
 @import "navbar.css";
-@import "footer.css";
+
 /* Terracotta red, light beige, & muted teal = #B85042, #E7E8D1, #A7BEAE */
 
 
@@ -32,6 +32,22 @@ blockquote::before{
 blockquote::after{
   content: '';
 }
+
+
+
+/*styling the footer for every blog page*/
+.footer {
+    height: 10vh;
+    background: #B85042;
+    color: #E7E8D1;
+    margin: 5vh 0 0 0;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 3vh 0 0 0;
+}
+
 
 
 
