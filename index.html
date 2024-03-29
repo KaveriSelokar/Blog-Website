@@ -12,6 +12,29 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 
 </head>
+<style>
+    .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center; }
+</style>
 <body>
 
     <nav class="navbar">
@@ -31,43 +54,12 @@
             </li>
         </ul>
     </nav>
-
-    <div class="container">
-        <div>
-            <img src="images/cover.jpg" class="cover"/>
+    <header>
+        <div class="image-container">
+            <img src="photos/effieltower2.jpg" alt="image">
+            <div class="overlay-text">Your text here</div>
         </div>
-    
-
-        <!-- Destination 1 -->
-        <div class="destinations-container">
-            <div>
-                <figure>
-                    <img src="images/mountains.jpg" class="destinations" alt="Destinations"/>
-                    <figcaption>Fig.1 - Coorg, Karnataka, India.</figcaption>
-                </figure>
-            </div>
-            <div class="caption">
-                <h5>Mountains</h5>
-                <p>Everybody wants to reach the peak, but there is no growth on the top of a mountain. It is in the valley that we slog through the lush grass and rich soil, learning and becoming what enables us to summit life’s next peak. That's why mountains are always my favorite destinations.</p>
-            </div>
-        </div>
-
-        <!-- Destination 2 -->
-        <div class="destinations-container">
-            <div class="caption">
-                <h5>Beaches</h5>
-                <p>Sky above, sand below, peace within. Look up at the cerulean blue sky. Feel the warm sugar sand between your toes. Find inner peace with all of the Gulf Coast beauty that surrounds you. It's so easy to be relaxed here.</p>
-            </div>
-            <div>
-                <figure>
-                    <img src="images/beaches.jpg" class="destinations" alt="Destinations"/>
-                    <figcaption>Fig.2- Goa, India</figcaption>
-                </figure>
-            </div>
-        </div>
-    </div>
-
-    <div class="clear-div"></div>
+    </header>
 
     <footer class="footer">
         <p class="footer-content">© 2024 - Kaveri Selokar, All Copyrights Reserved</p>
