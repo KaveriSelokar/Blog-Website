@@ -1,0 +1,18 @@
+@import "navbar.css";
+@import "footer.css";
+/* Terracotta red, light beige, & muted teal = #B85042, #E7E8D1, #A7BEAE */
+
+/*Extra small devices*/
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .destinations-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+ }
+
+/*Small devices and Tablets*/
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+    .destinations-container {
+        margin: 5vh 10vw 0 10vw;
+    }
+ }
