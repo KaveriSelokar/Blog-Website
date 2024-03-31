@@ -52,7 +52,7 @@ blockquote::after{
   }
   
   /*styling the li element to have look more appealing*/
-  .list-container > li {
+  .list-container > li > .realli {
     margin: 0 0 10px; 
     padding: 10px;
     background-color: #A7BEAE; 
