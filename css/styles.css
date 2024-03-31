@@ -62,7 +62,7 @@ blockquote::after{
   }
   
   /* Hover effect for list items */
-  li:hover  {
+  li.realli:hover  {
     background-color: #A7BEAE; 
     transition: background-color 0.3s; 
   }
