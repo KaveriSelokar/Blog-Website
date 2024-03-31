@@ -38,7 +38,7 @@ blockquote::after{
 
   /*making the list appear in the middle of the page*/
   .content-container {
-    width: 70%; 
+    width: 60%; 
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
