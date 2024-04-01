@@ -40,6 +40,7 @@ blockquote::after{
   .content-container {
     width: 60%; 
     margin: auto;
+    letter-spacing: .2rem ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
   }
@@ -48,6 +49,7 @@ blockquote::after{
   .list-container > ul {
     list-style-type: none; 
     padding: 0;
+    
     
   }
   
@@ -73,6 +75,10 @@ blockquote::after{
     background: #B85042;
     color: #E7E8D1;
     margin: 5vh 0 0 0;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: -10px;
+    
 }
 
 .footer-content {
