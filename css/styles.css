@@ -1,6 +1,7 @@
 /*color scheme [Terracotta red, light beige, & muted teal = #B85042, #E7E8D1, #A7BEAE] */
 
 @import "navbar.css";
+@import "aboutus.css";
 
 /*styling standard blockquote format for every page*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
